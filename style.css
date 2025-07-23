@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body.homepage {
+    background-image: url('https://res-3.cloudinary.com/fieldfisher/image/upload/f_jpg,q_auto/v1/sectors/technology/tech_neoncircuitboard_857021704_medium_lc5h05');
+    background-position: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .overlay {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    background-color:whitesmoke;
+    color: black;
+    font-size: 1.2em;
+    border-radius: 8px;
+  }
+  
+  .button:hover {
+    background-color: rgb(201, 41, 94);
+  }
+  
+  body.resources {
+    background-color: #f0f0f0;
+    padding: 40px;
+    color: #333;
+  }
+  
+  .resources h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    display: grid;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    color: rgb(201, 41, 94);
+  }
+  
+  .card p {
+    font-size: 0.95em;
+  }
